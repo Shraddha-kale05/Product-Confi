@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.main-btn:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.option-group {
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.option-group button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.option-group button:hover {
+    background-color: #0056b3;
+}
+
+.nested-options {
+    margin-left: 20px;
+    display: none;
+}
+
+.container.hidden {
+    display: none;
+}
+
+.option-group button.active + .nested-options {
+    display: block;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+.result {
+    margin-top: 30px;
+}
+
+.result.hidden {
+    display: none;
+}
